@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // "target": "ES2020",
+    //"module": "NodeNext",
+    "module": "ESNext",
+    "target": "ES6",
+    //"moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    // Other options...
+    "allowImportingTsExtensions": true 
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
